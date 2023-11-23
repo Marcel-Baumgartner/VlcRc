@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VlcRc", "VlcRc\VlcRc.csproj", "{91B6B358-BC7C-42E7-BE34-F5B8E6BFB833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VlcRc.Test", "VlcRc.Test\VlcRc.Test.csproj", "{1FC01447-4F65-4230-9EAD-535A999A9CC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91B6B358-BC7C-42E7-BE34-F5B8E6BFB833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B6B358-BC7C-42E7-BE34-F5B8E6BFB833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B6B358-BC7C-42E7-BE34-F5B8E6BFB833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B6B358-BC7C-42E7-BE34-F5B8E6BFB833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC01447-4F65-4230-9EAD-535A999A9CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC01447-4F65-4230-9EAD-535A999A9CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC01447-4F65-4230-9EAD-535A999A9CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC01447-4F65-4230-9EAD-535A999A9CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
