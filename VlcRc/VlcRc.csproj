@@ -4,6 +4,16 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>VlcRc</Title>
+        <Authors>Marcel Baumgartner</Authors>
+        <Description>A minimal utility library to remote control a vlc instance over tcp rc</Description>
+        <Copyright>Marcel Baumgartner</Copyright>
+        <PackageProjectUrl>https://github.com/Marcel-Baumgartner/VlcRc</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/Marcel-Baumgartner/VlcRc/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/Marcel-Baumgartner/VlcRc</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>vlc</PackageTags>
     </PropertyGroup>
 
 </Project>
