@@ -3,14 +3,14 @@
 var client = new VlcRcClient();
 await client.Connect("127.0.0.1", 9999);
 
-while (true)
+client.OnPlayListUpdated += (_, _) =>
 {
-    await client.FullScreen(true);
-    await client.Pause();
-    await Task.Delay(TimeSpan.FromMilliseconds(20));
-    await client.FullScreen(false);
-    await client.Pause();
-    await Task.Delay(TimeSpan.FromMilliseconds(20));
-}
+    foreach (var item in client.PlayList)
+    {
+        Console.WriteLine($"{item.Name} / {item.Lenght}");
+    }
+};
+
+await client.FetchPlaylist();
 
 Console.ReadLine();
